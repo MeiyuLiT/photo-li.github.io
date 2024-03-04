@@ -3,26 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-    <!-- Add your CSS links here -->
-    <link rel="stylesheet" href="styles.css">
-    <!-- Add your JavaScript links here -->
-    <script src="script.js" defer></script>
+    <title>Photography Website</title>
+    <!-- Link to your CSS file for styling -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <style>
+        p{
+            color: limegreen;
+        }
+    </style> -->
 </head>
-<body>
-    <header>
-        <h1>XXX photo website</h1>
-        <!-- Add navigation menu or other header content here -->
-    </header>
 
-    <main>
-        <!-- Add your main content here -->
-        <p>Welcome to my photo website!</p>
-    </main>
+<body>
+    <!-- <header>
+        <div class="logo">
+            <img src="logo.png" alt="Photography Website Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header> -->
+
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to our photography website!</h1>
+            <!-- <p class="gray">Discover breathtaking moments captured by Meiyu Li and Ziwen Gao.</p> -->
+            <p id="second">Discover breathtaking moments captured by <span style="text-decoration: underline;">Meiyu Li</span> and <span style="text-decoration: underline;">Ziwen Gao</span> </p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a couple from Shandong, China, born in the millennium. During our spare time, we love traveling and hiking. In December 2023, we bought our first camera, a Sony a6400. We hope to use our perspectives from around the world to bring you joyous moments.
+            If you have any questions, feel free to reach out via email <span style="text-decoration: underline;">meiyuli569@gmail.com</span> 
+        </p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Selected Photos</h2>
+        <div class="gallery">
+            <!-- Your photo gallery goes here -->
+            <div class="photo">
+                <img src="photos/DSC00349.JPG" alt="Photo 1" width="6000" height="3376">
+            </div>
+            <div class="photo">
+                <img src="photos/DSC00435.JPG" alt="Photo 2" width="6000" height="3376">
+            </div>
+            <div class="photo">
+                <img src="photos/DSC00806.JPG" alt="Photo 3" width="6000" height="3376">
+            </div>
+            <!-- Add more photos as needed -->
+        </div>
+    </section>
+
 
     <footer>
-        <!-- Add footer content here -->
-        <p>&copy; 2024 Your Website. All rights reserved.</p>
+        <p>&copy; 2024 Photography Website. All rights reserved.</p>
+        <style>
+            p {
+                color: black;
+                font-size: 0.8rem;
+            }
+        </style>
     </footer>
 </body>
 </html>
