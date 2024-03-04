@@ -1,0 +1,65 @@
+body {
+    font-size: 1.5rem;
+    padding: 10%;
+    /* color:aliceblue; */
+}
+
+input, button{
+    font: inherit;
+}
+
+/* p {
+    text-decoration: line-through;
+    text-indent: 1.5em;
+    word-spacing: 0.5em
+} */
+
+p {
+    text-align: justify; /* left = right */
+    line-height: 1.5;
+    font-weight: normal;
+    /* letter-spacing: 0.08em; */
+    font-size:  1rem;
+    color: purple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    /* fonts.google.com */
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+h2 {
+    font-size:  2rem;
+}
+
+.gray {
+    color: gray;
+}
+
+
+.gallery {
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-around; /* Horizontally distribute items */
+}
+
+/* Styles for individual photos */
+.photo {
+    margin: 10px; /* Add some margin around each photo */
+    /* border: 1px solid #ccc; /* Add a border around each photo */
+    /* border-radius: 5px; /* Add rounded corners to the border */
+}
+
+.photo img {
+    width: 70%; /* Make sure images fill their container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#second {
+    font-style: italic;
+    color: black;
+}
+
+#contact_email {
+    color: gray;
+    font-size:  0.8rem;
+}
+
